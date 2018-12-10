@@ -1,1 +1,4 @@
 # mindocker
+
+docker build tests
+
