@@ -1,6 +1,11 @@
 def say_hello(name):
     return 'hello ' + name
 
+def say_goodbye(name):
+    return 'goodbye ' + name
+
 if __name__ == '__main__':
-    print(say_hello('vim'))
+    name = 'vim'
+    print(say_hello(name))
+    print(say_goodbye(name))
 
